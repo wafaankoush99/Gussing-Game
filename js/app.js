@@ -15,10 +15,12 @@ myName = myName.toLocaleLowerCase(); myName.toLocaleUpperCase();
 
 switch (myName) {
 case 'yes':
+case 'y':
 //console.log('Right answer ♥');
   alert('Right answer ♥');
   break;
 case 'no':
+case 'n':
 //console.log('I am really Wafa')
   alert('I am really Wafa');
   break;
@@ -40,10 +42,12 @@ favDish = favDish.toLocaleLowerCase(); favDish.toLocaleUpperCase();
 
 switch (favDish) {
 case 'y':
-//console.log('Right, pizza is my favourite dish');
-  alert('Right, pizza is my favourite dish');
+case 'yes':
+//console.log('Right, pizza is my favorite dish');
+  alert('Right, pizza is my favorite dish');
   break;
 case 'n':
+case 'no':
 //console.log('Ops, I love pizza so much');
   alert('Ops, I love pizza so much');
   break;
@@ -63,10 +67,12 @@ favColor = favColor.toLocaleLowerCase(); favColor.toLocaleUpperCase();
 
 switch (favColor) {
 case 'y':
+case 'yes':
 //console.log('No, not exactly .. I like lightly colours more');
   alert('No, not exactly .. I like lightly colours more');
   break;
 case 'n':
+case 'no':
 //console.log('Yes, how do you know that ');
   alert('Yes, how do you know that ');
   break;
@@ -86,10 +92,12 @@ artLove = artLove.toLocaleLowerCase(); artLove.toLocaleUpperCase();
 
 switch (artLove) {
 case 'y':
+case 'yes':
 //console.log('Yes, I am fond of everything related to art ');
   alert('Yes, I am fond of everything related to art ');
   break;
 case 'n':
+case 'no':
 //console.log(' Just the opposite :( ');
   alert(' Just the opposite :( ');
   break;
@@ -109,10 +117,12 @@ loveMe = loveMe.toLocaleLowerCase(); loveMe.toLocaleUpperCase();
 
 switch (loveMe) {
 case 'yes':
+case 'y':
   //console.log('I love you toooo ♥ ');
   alert('I love you toooo ♥ ');
   break;
 case 'no':
+case 'n':
   //console.log(' Broken heart </3 ');
   alert(' Broken heart </3 ');
   break;
@@ -123,7 +133,7 @@ default:
 }
 
 
-alert('Thank you ' + userName + ' for your visitng ♥');
+alert('Thank you ' + userName + ' for your visiting ♥');
 
 
 
