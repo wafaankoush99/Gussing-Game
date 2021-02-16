@@ -1,82 +1,95 @@
-body {
-    background-color: rgb(255, 211, 211);
-    display: inline-block;
-    margin: 0px auto;
-    text-align: center;
-    padding: 65px;
-    
+* {
+    margin: 0 20px 0 20px;
+    padding: 0 20px 0 20px;
 }
 
-.img1 {
-    width: 30px;
-    height: 30px;
-    border-radius: 5px;
-}
-
-
-header nav ul li {
-
+body{
+    width: auto;
+    margin: 10px;
     display: inline;
-    padding: 30px;
-    text-align: center;
+    padding: 10px;
+    font-family: monospace;
+}
+
+header {
+    background-color: #ccc;
+    padding: 10px;
 }
 
 a {
     text-decoration: none;
 }
 
-.one {
-    line-height: 40px;
-    text-transform: capitalize;
+header nav ul li {
+    display: inline;
+    padding: 10px;
     text-align: center;
-    font-style: oblique;
 }
 
-/*p:nth-child(4) {
-    background: rgb(186, 255, 116);
-}*/
+header nav ul li:hover {
+    background-color: #F08080;
+}
+
+.img1 {
+    border: #6a4638 solid 2px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.p1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+    background-color:#F08080;
+    line-height: 20px;
+}
+
+.name-span {
+    font-size: 16px;
+}
 
 .one {
-
-    text-transform: unset;
-    font-size: 30px;
-    color:brown;
-    background-color: lavenderblush;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+    line-height: none;
+    background-color:#3CB371;
+    font-family: monospace;
 }
 
-
-.two {
-
-
-    
-
+.head-title {
+    margin-bottom: 20px;
 }
 
-
-
-.two:nth-child(even) {
-   
-    background-color: rgb(249, 184, 255);
-    inset-inline: block;
-    font: bold;
+.top-ten {
+    background-color: burlywood;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
 }
 
-.img2 {
-
-    width: 1000px;
-    height: 300px;
-    border-radius: 10px;
+.work {
+    background-color:darkkhaki;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
 }
 
 footer {
-    background-color: lightgray;
+    background-color: crimson;
+    color: #ffffff;
+    margin-top: 30px;
+    padding: 10px;
 }
 
-span {
-
-    color: mediumblue;
-}
-
-ol li {
-    background-color: mistyrose;
+.footer-span {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
