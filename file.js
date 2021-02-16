@@ -1,3 +1,0 @@
-"use strickt";
-
-var
