@@ -161,7 +161,7 @@ alert('Thank you ' + userName + ' for your visiting ♥');
 
 
 let q1=0;
-console.log(q1);
+//console.log('ask user about my siblings' + q1);
 for (let i=0 ;i < 4 ; i++)
 {
   q1 = prompt('How many siblings do I have?');
@@ -181,6 +181,9 @@ for (let i=0 ;i < 4 ; i++)
 
     break;
   }
+  else {
+    alert('please put a number');
+  }
 
 
 }
@@ -194,7 +197,7 @@ alert('The correct answer is 4');
 
 
 let arr1 = ['black' , 'pink', 'grey'];
-console.log(arr1);
+//console.log('ask user about favorite color' + arr1);
 for (let i=0; i < 6 ; i++){
   let q2 = prompt('what is my favorite color?');
   q2 = q2.toLocaleLowerCase(); q2.toLocaleUpperCase();
@@ -216,6 +219,7 @@ for (let i=0; i < 6 ; i++){
 alert('the correct answer : black,pink &grey');
 
 alert('your mark is ' + score + ' from 7');
+
 
 
 
